@@ -1,5 +1,6 @@
 import cmd
 import os
+import sys
 import coins
 import addr
 import register
@@ -31,6 +32,9 @@ class BlooClient(cmd.Cmd):
 
     def do_totalcoins(self, line):
         print "There are "+str(total_coins.total_coins())+" coins in curculation."
+
+    def do_exit(self, line):
+        sys.exit(0)
 
     def do_help(self, line):
         print """
