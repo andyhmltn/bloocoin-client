@@ -47,6 +47,7 @@ class BlooClient(cmd.Cmd):
         transactions - Shows all transactions you have made.
         totalcoins - Shows all coins in curculation
         help - Displays this prompt.
+        exit - Exits from the Bloocoin Client.
 
         """
 if __name__ == "__main__":
